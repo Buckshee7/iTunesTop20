@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import Song from '../components/Song';
+import Top20List from '../components/Top20List';
 
 export default class Top20 extends Component{
 
@@ -27,7 +28,7 @@ export default class Top20 extends Component{
 
         return(
             <div>
-                {songNodes}
+                <Top20List top20={this.state.top20}/>
             </div>
         )
     }
