@@ -1,9 +1,10 @@
 import React from 'react';
 import './App.css';
+import Top20 from './containers/Top20'
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <Top20 />
     </div>
   );
