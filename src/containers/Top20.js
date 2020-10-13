@@ -22,10 +22,6 @@ export default class Top20 extends Component{
 
     render(){
 
-        let songNodes = this.state.top20.map(song => {
-            return <Song song={song} key={song.id.attributes["im:id"]} />
-        })
-
         return(
             <div>
                 <Top20List top20={this.state.top20}/>
