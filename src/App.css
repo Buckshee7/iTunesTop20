@@ -36,3 +36,28 @@
     transform: rotate(360deg);
   }
 }
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 3fr 4fr 2fr;
+}
+
+.songHeader{
+  grid-column-start: 1;
+  margin: 10px;
+}
+
+.songimg{
+  grid-column-start: 2;
+  margin: 10px;
+}
+
+.songDetails{
+  grid-column-start: 3;
+  margin: 10px;
+}
+
+.songAudio{
+  grid-column-start: 4;
+  margin: 10px;
+}
